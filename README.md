@@ -58,7 +58,7 @@
         
         <button id="submit" type="submit">Submit</button>
       </form>
-      <script src="./index.js"></script>
+      <script src="https://github.com/pravallika285/Registration-Form/blob/7d643a0475d9f99e97b41a9212cd98bca459f986/index.js"></script>
     </div>
     
     <div class="fillers">
