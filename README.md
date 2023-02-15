@@ -46,7 +46,7 @@
         
         <div class="sub-container">
           <label for="dob">Date of Birth</label>
-          <input type="date" name="dob" required id="dob">
+          <input type="date" name="dob" required id="dob" />
         </div>
         
         <div class="sub-container">
