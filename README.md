@@ -46,8 +46,14 @@
         
         <div class="sub-container">
           <label for="dob">Date of Birth</label>
+          <input type="date" name="dob" required id="dob" />
+        </div>
+        
+        <div class="sub-container">
           <input type="checkbox" name="check-box" required id="check-box" />
-          <label for="checkbox" class="aaccept-text">Accept Terms and Conditions</label>
+          <label for="checkbox" class="aaccept-text"
+                 >Accept Terms and Conditions</label
+            >
         </div>
         
         <button id="submit" type="submit">Submit</button>
