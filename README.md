@@ -58,7 +58,7 @@
         
         <button id="submit" type="submit">Submit</button>
       </form>
-      <script src ="./index.js:"></script>
+        <link rel="stylesheet" href="index.js" />
     </div>
     
     <div class="fillers">
