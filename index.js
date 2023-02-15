@@ -1,6 +1,6 @@
 function check_the_dob(dob) {
-  var age = new Date().getFullYear() - new date(dob.value).getFullYear();
-  if (age < 18 || age > 55){
+  var age = new Date().getFullYear() - new Date(dob.value).getFullYear();
+  if (age < 18 || age > 55) {
     dob.setCustomValidity("The age should be between 18 and 55");
     dob.reportValidity();
   } else {
@@ -36,13 +36,13 @@ function check_the_tick(tick) {
   }
 }
 
-dob=document.getElementById("dpb");
+dob = document.getElementById("dob");
 var password = document.getElementById("password");
-var trick = document.getElementById("check-box");
+var tick = document.getElementById("check-box");
 var email = document.getElementById("email");
 var name_of_the_user = document.getElementById("name");
 
-email.addEvenListener("input", () => check_the_email(email));
+email.addEventListener("input", () => check_the_email(email));
 dob.addEventListener("input", () => Check_the_dob(dob));
 name_of_the_user.addEventListener("input", () =>
   check_the_name(name_of_the_user)
@@ -62,12 +62,12 @@ enter_to_the_table = () => {
   }
   return user_entries;
 };
-user_entries=enter_to_the_table();
+user_entries = enter_to_the_table();
 
-create_list_of_object =() => {
-  var check =true;
+create_list_of_object = () => {
+  var check = true;
   if(!tick.checked) {
-    check=false;
+    check = false;
   }
   var object_list = {
     dob: dob.value,
@@ -81,7 +81,7 @@ create_list_of_object =() => {
 
 show_the_table= () => {
   var table = document.getElementById("user-table");
-  var object_of_entries = user_emtries;
+  var object_of_entries = user_entries;
   var word = `\n<tr>
                      <th>Name</th>
                      <th>Email</th>
@@ -101,13 +101,13 @@ show_the_table= () => {
   table.innerHTML = word;
 };
 
-get_formm.addEventListener("submit", (e) => {
+get_form.addEventListener("submit", (e) => {
   e.preventDefault();
   var agree_the_condition = tick.checked;
   if (agree_the_condition) {
     var object_list = create_list_of_object();
     user_entries.push(object_list);
-    localstorage.setItem("user_entries",JSON.stringify(user_entries));
+    localStorage.setItem("user_entries",JSON.stringify(user_entries));
   }
   show_the_table();
 });
