@@ -11,7 +11,7 @@
     <div class="container">
       <div classs="registration">Registration Form</div>
       <form id="user-form">
-        <div class ="sub-container">
+        <div class="sub-container">
           <label for="name">Name</label>
           <input
                  type="text"
