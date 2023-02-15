@@ -52,7 +52,7 @@
         <div class="sub-container">
           <input type="check-box" name="check-box" required id="check-box" />
           <label for="check-box" class="aaccept-text"
-                 >Accept Terms and Conditions</label
+          >Accept Terms and Conditions</label
           >
         </div>
         
