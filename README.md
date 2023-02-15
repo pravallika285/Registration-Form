@@ -9,38 +9,38 @@
   </head>
   <body>
     <div class="container">
-      <div classs="registration">Registration Form</div>
+      <div class="registration">Registration Form</div>
       <form id="user-form">
         <div class="sub-container">
           <label for="name">Name</label>
           <input
-                 type="text"
-                 name="name"
-                 id="name"
-                 required
-                 placeholder="Enter full name"
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Enter full name"
           />
         </div>
         
         <div class="sub-container">
           <label for="email">Email</label>
           <input
-                 type="email"
-                 name="email"
-                 id="email"
-                 required
-                 placeholder="Enter email"
-          />
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Enter email"
+        />
         </div>
         
         <div class="sub-container">
           <label for="password">Password</label>
           <input
-                 type="password"
-                 name="password"
-                 id="password"
-                 required
-                 placeholder="Enter password"
+            type="password"
+            name="password"
+            id="password"
+            required
+            placeholder="Enter password"
           />
         </div>
         
@@ -50,15 +50,15 @@
         </div>
         
         <div class="sub-container">
-          <input type="checkbox" name="check-box" required id="check-box" />
-          <label for="checkbox" class="aaccept-text"
+          <input type="check-box" name="check-box" required id="check-box" />
+          <label for="check-box" class="aaccept-text"
                  >Accept Terms and Conditions</label
-            >
+          >
         </div>
         
         <button id="submit" type="submit">Submit</button>
       </form>
-        <link rel="stylesheet" href="index.js" />
+      <script src="./index.js"<>/script>
     </div>
     
     <div class="fillers">
