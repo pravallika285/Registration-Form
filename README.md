@@ -50,7 +50,7 @@
         </div>
         
         <div class="sub-container">
-          <input type="checkbox" name="check-box" required id="check-box" />
+          <input type="checkbox" name="check-box" required id="check-box">
           <label for="check-box" class="aaccept-text"
                  >Accept Terms and Conditions</label
           >
