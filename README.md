@@ -60,7 +60,7 @@
         
         <button id="submit" type="submit">Submit</button>
       </form>
-    
+      <script src="./index.js"></script>
     </div>
     
     <div class="fillers">
