@@ -1,6 +1,6 @@
 function check_the_dob(dob) {
   var age = new Date().getFullYear() - new Date(dob.value).getFullYear();
-  if (age > 18 || age < 55) {
+  if (age < 18 || age > 55) {
     dob.setCustomValidity("The age should be between 18 and 55");
     dob.reportValidity();
   } else {
